@@ -1,0 +1,21 @@
+.panel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 10px solid var(--red);
+    margin-top:1rem;
+
+    .panel-row{
+      max-width: 100%;
+      // height: auto;
+      .square{
+        width: 150px;
+        height: 150px;
+        border:1px solid #000;
+        background: #7fffd4;
+      }
+      .enemy{
+        background: var(--red);
+      }
+    }
+  }

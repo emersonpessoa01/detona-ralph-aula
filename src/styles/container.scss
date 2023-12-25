@@ -1,15 +1,16 @@
 .container {
   display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 
   .menu {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    height: 90px;
-    width: 100%; /* DEIXOU CENTER */
+    min-height: 90px;
+    // width: 100%; /* DEIXOU CENTER */
+    max-width: 100%;
     background: var(--bg-black);
     color: var(--white);
   }
 }
-
-
