@@ -2,16 +2,16 @@
   width: 100%;
   max-width: 400px;
   display: grid;
-  grid-template-columns: repeat(3,1fr);
-  gap:.5rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
   margin: 2rem auto;
   margin-bottom: 0;
   // padding:0 4%;
-  padding-top:95px;
+  padding-top: 95px;
   // margin-top: 1rem;
   .square {
-    background-color:#9d9d9d;
-    border:1px solid #000;
+    background-color: var(--blue);
+    border: 1px solid #000;
     width: 100%;
     padding-top: 100%;
     // padding-top: 75%;
@@ -21,6 +21,5 @@
     // background: var(--red);
     background-image: url("../images/ralph.png");
     background-size: cover;
-    
   }
 }

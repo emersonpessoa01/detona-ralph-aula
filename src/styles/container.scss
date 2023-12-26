@@ -17,7 +17,7 @@
     justify-content: space-evenly;
     // width: 100%; /* DEIXOU CENTER */
     max-width: 1920px;
-    // padding: 2rem 7%;
+    padding: 2rem 7%;
     background: var(--bg-black);
     color: var(--white);
     position: fixed;
@@ -25,12 +25,13 @@
     left: 0;
     right: 0;
     z-index: 1000;
+    border-bottom:5px solid var(--gold);
     
     :is(.menu-time, .menu-score, .menu-lives) {
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: space-between;
+      justify-content: center;
       gap: 1rem;
       h2 {
         color: var(--red);
@@ -39,8 +40,8 @@
       }
     }
     .menu-lives {
-      display: flex;
-      flex-direction: column;
+      // display: flex;
+      flex-direction: row;
       align-items: center;
       justify-content: space-between;
       img {
