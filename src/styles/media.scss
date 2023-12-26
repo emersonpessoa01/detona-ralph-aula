@@ -1,0 +1,11 @@
+@media(max-width:480px){
+    :is(h2,span){
+        font-size: 1.6rem;
+    }
+    .menu{
+        padding:2rem 7%;
+    }
+    .panel{
+        padding-top:120px;
+    }
+}
