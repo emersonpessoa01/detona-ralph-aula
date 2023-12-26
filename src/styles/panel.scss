@@ -16,6 +16,9 @@
     padding-top: 100%;
     // padding-top: 75%;
     // padding-top: calc((3 / 4) * 100%);
+    &:hover{
+      cursor: pointer;
+    }
   }
   .enemy {
     // background: var(--red);
