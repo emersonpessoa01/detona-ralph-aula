@@ -26,7 +26,7 @@ function playSound() {
   audio.play();
 }
 function reStart() {
-  update.addEventListener("click", async (e) => {
+  update.addEventListener("click",(e) => {
     e.preventDefault();
     location.reload();
   });
@@ -57,6 +57,16 @@ function randomSquare() {
 function addListenerHitBox() {
   state.view.squares.forEach((square) => {
     square.addEventListener("mousedown", () => {
+      if (square.id === state.values.hitPosition) {
+        state.values.result++;
+        state.view.score.textContent = state.values.result;
+        state.values.hitPosition = null;
+        playSound();
+      }
+    });
+  });
+  state.view.squares.forEach((square) => {
+    square.addEventListener("touchstart", () => {
       if (square.id === state.values.hitPosition) {
         state.values.result++;
         state.view.score.textContent = state.values.result;
