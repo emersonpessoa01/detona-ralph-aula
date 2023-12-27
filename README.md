@@ -1,4 +1,4 @@
-<p align="center" style="font-size:24px;line-height:30px; font-weight:600">Game Detona Ralph</p>
+## <p align="center">Game Detona Ralph</p>
 
 ### Créditos às aulas ministradas pela DIO : Potência Tech iFood - Desenvolvimento de Jogos
 
