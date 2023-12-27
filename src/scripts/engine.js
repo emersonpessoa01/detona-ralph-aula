@@ -38,7 +38,6 @@ function countDown() {
   if (state.values.currentTime <= 0) {
     clearInterval(state.actions.countDownTimeId);
     clearInterval(state.actions.timeId);
-    showResult();
     alert(`Game Over! O seu resultado foi: ${state.values.result}`);
     state.view.update.classList.add("active");
   }
