@@ -30,7 +30,7 @@ function countDown() {
 
 function playSound(audioName) {
   let audio = new Audio(`./src/audios/${audioName}.m4a`);
-  audio.volume = 1.0;
+  audio.volume = 0.2;
   audio.play();
 }
 
@@ -57,9 +57,17 @@ function addListenerHitBox() {
     });
   });
 }
+function reStart() {
+  update.addEventListener("click",(e) => {
+    e.preventDefault();
+    location.reload();
+  });
+}
 
 function initialize() {
   addListenerHitBox();
+  reStart()
+  
 }
 
 initialize();
