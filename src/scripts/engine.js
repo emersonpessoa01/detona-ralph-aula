@@ -65,16 +65,6 @@ function addListenerHitBox() {
       }
     });
   });
-  state.view.squares.forEach((square) => {
-    square.addEventListener("touchstart", () => {
-      if (square.id === state.values.hitPosition) {
-        state.values.result++;
-        state.view.score.textContent = state.values.result;
-        state.values.hitPosition = null;
-        playSound();
-      }
-    });
-  });
 }
 
 function initialize() {

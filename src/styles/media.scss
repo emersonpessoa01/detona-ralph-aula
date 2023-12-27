@@ -3,6 +3,13 @@
         width: 30% !important;
     }
 }
+@media(max-width:676px){
+    .panel{
+        padding-top:130px;
+        padding-left:2%;
+        padding-right:2%;
+    }
+}
 @media(max-width:480px){
     :is(h2,span){
         font-size: 1.2rem;

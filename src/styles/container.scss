@@ -14,7 +14,8 @@
   .menu {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    // gap:1.5rem;
     // width: 100%; /* DEIXOU CENTER */
     max-width: 1920px;
     padding: 2rem 7%;
@@ -32,10 +33,12 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      gap: 1rem;
+      gap: 1.5rem;
+      
       h2 {
         color: var(--red);
         line-height: 1.2em;
+        filter: drop-shadow(1px 2px 3px #e9e3e3);
         // padding-top: 21.6px;
       }
     }
@@ -47,6 +50,8 @@
       img {
         height: 6rem;
         display: block;
+        filter: drop-shadow(1px 2px 3px #e9e3e3);
+        
       }
     }
   }
