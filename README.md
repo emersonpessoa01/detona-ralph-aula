@@ -1,6 +1,6 @@
-## Game Detona Ralph
+<p align="center" style="font-size:24px;line-height:30px; font-weight:600">Game Detona Ralph</p>
 
-### Créditos às aulas ministradas pela DIO - Bootcamp Desenvolvedor de Jogos
+### Créditos às aulas ministradas pela DIO : Potência Tech iFood - Desenvolvimento de Jogos
 
  [Clique aqui](https://detona-ralph-aula.vercel.app/) para acessar o resultado final do jogo criada a partir do desafio!
 
