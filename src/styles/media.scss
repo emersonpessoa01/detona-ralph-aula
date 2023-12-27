@@ -1,3 +1,8 @@
+@media(max-width:768px){
+    #update {
+        width: 30% !important;
+    }
+}
 @media(max-width:480px){
     :is(h2,span){
         font-size: 1.6rem;
