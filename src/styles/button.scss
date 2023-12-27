@@ -1,40 +1,41 @@
 .menu-btn{
     width:100%;
     margin-top: 1rem;
+
+    #update {
+      box-shadow: 0px 1px 0px 0px #1c1b18;
+      background: linear-gradient(
+        to bottom,
+        var(--red) 5%,
+        var(--red2) 100%
+      );
+      /* background-color: #eae0c2; */
+      border-radius: 0.25rem;
+      border: none;
+      cursor: pointer;
+      color:#fff;
+      font-family: Arial;
+      font-size: 14px;
+      font-weight: bold;
+      padding: 12px;
+      text-decoration: none;
+      display: block;
+      width: 10%;
+      margin: 0 auto;
+      transition: all .8s;
+    }
+    #update:hover {
+      background: linear-gradient(to bottom, var(--red) 5%, var(--red) 100%);
+      background-color: var(--red);
+    }
+  //   #update:active {
+  //     position: relative;
+  //     top: 1px;
+  //   }
+  //   .update {
+  //     display: none !important;
+  //   }
+  //   .update.active{
+  //     display: block !important;
+  //   }
 }
-#update {
-    box-shadow: 0px 1px 0px 0px #1c1b18;
-    background: linear-gradient(
-      to bottom,
-      var(--red) 5%,
-      var(--red2) 100%
-    );
-    /* background-color: #eae0c2; */
-    border-radius: 0.25rem;
-    border: none;
-    cursor: pointer;
-    color:#fff;
-    font-family: Arial;
-    font-size: 14px;
-    font-weight: bold;
-    padding: 12px;
-    text-decoration: none;
-    display: block;
-    width: 10%;
-    margin: 0 auto;
-    transition: all .8s;
-  }
-  #update:hover {
-    background: linear-gradient(to bottom, var(--red) 5%, var(--red) 100%);
-    background-color: var(--red);
-  }
-//   #update:active {
-//     position: relative;
-//     top: 1px;
-//   }
-//   .update {
-//     display: none !important;
-//   }
-//   .update.active{
-//     display: block !important;
-//   }

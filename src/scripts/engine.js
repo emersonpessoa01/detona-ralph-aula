@@ -20,8 +20,8 @@ const state = {
     countDownTimeId: setInterval(countDown, 1000),
   },
 };
-function playSound() {
-  let audio = new Audio("../../src/audios/hit.m4a");
+function playSound(audioName) {
+  let audio = new Audio(`./src/audios/${audioName}.m4a`);
   audio.volume = 0.2;
   audio.play();
 }
@@ -35,11 +35,11 @@ function reStart() {
 function countDown() {
   state.values.currentTime--;
   state.view.timeLeft.textContent = state.values.currentTime;
+
   if (state.values.currentTime <= 0) {
     clearInterval(state.actions.countDownTimeId);
     clearInterval(state.actions.timeId);
-    alert(`Game Over! O seu resultado foi: ${state.values.result}`);
-    state.view.update.classList.add("active");
+    alert("Game Over! O seu resultado foi: " + state.values.result);
   }
 }
 function randomSquare() {
@@ -61,7 +61,7 @@ function addListenerHitBox() {
         state.values.result++;
         state.view.score.textContent = state.values.result;
         state.values.hitPosition = null;
-        playSound();
+        playSound("hit");
       }
     });
   });
