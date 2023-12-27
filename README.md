@@ -2,7 +2,7 @@
 
 ### Créditos às aulas ministradas pela DIO - Bootcamp Desenvolvedor de Jogos
 
- [Clique aqui](https://detona-ralph-aula.vercel.app/) para acessar o resultado final da Landing Page criada a partir do desafio!
+ [Clique aqui](https://detona-ralph-aula.vercel.app/) para acessar o resultado final do jogo criada a partir do desafio!
 
 <p align="center">
   <img src="./src/images/readme.png" alt="JSGame Detona Ralph Logo" width="100%">
