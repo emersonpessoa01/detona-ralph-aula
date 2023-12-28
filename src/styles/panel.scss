@@ -23,6 +23,8 @@
   .enemy {
     // background: var(--red);
     background-image: url("../images/ralph.png");
-    background-size: cover;
+    background-position: center;
+    background-size: 100px;
+    background-repeat: no-repeat;
   }
 }
