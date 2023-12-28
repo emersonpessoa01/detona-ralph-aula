@@ -18,5 +18,12 @@ Bem-vindo ao **JSGame Detona Ralph**! Neste repositório, você encontrará um j
 
 ### Funcionalidades Incríveis
 
+
 - **Sistema de Pontuação**: Acompanhe sua pontuação à medida que progride no jogo e desafie seus amigos a superá-la, clique no quadrado que o Ralph se encontre
+
+### Startar o servidor Vite:
+```
+$ npm install
+$ npm run dev
+```
 
